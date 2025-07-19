@@ -1,0 +1,42 @@
+## OneStop Company Information
+- Founded: 2022
+- CEO: Alex Johnson
+- Headquarters: Sydney, Australia
+- Segments: B2B, B2C, C2C, C2B
+
+## Product Information
+### Electronics
+- UltraBook Pro (LAP-X1): 14" display, 16GB RAM, 512GB SSD - $1299
+- Solaris Phone (PHN-Z3): 48MP camera, 5G, 5000mAh battery - $799
+- Echo Smart Speaker (SPK-E5): Voice assistant, smart home control - $129
+
+### Clothing
+- Performance Tee (TEE-P1): Moisture-wicking fabric, UV protection - $39
+- Denim Jacket (JCK-D2): 100% organic cotton, slim fit - $89
+
+## Policies
+### Shipping
+- Free shipping on orders >$50
+- Standard: 3-5 business days
+- Express: 1-2 business days ($15)
+- Delivery tracking: https://track.onestop.com
+
+### Returns
+- 30-day hassle-free returns
+- Return portal: https://returns.onestop.com
+- Refund processing: 5-7 business days
+
+## Order Status Examples
+- ORD-1001: Shipped (ETA: July 25)
+- ORD-1002: Processing
+- ORD-1003: Delivered (July 18)
+
+## Special Offers
+- NEWCUSTOMER10: 10% off first order
+- FREESHIP99: Free shipping on orders >$99
+- TECH20: 20% off electronics
+
+## Features
+- Live product demos: https://demos.onestop.com
+- AR try-on: https://ar.onestop.com
+- 24/7 support: support@onestop.com
