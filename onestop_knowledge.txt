@@ -4,6 +4,11 @@
 - Headquarters: Sydney, Australia
 - Segments: B2B, B2C, C2C, C2B
 
+## Account Management
+- To reset your password, visit https://onestop.com/reset
+- To update your shipping address, go to Account > Address Book
+- To deactivate your account, email support@onestop.com
+
 ## Product Information
 ### Electronics
 - UltraBook Pro (LAP-X1): 14" display, 16GB RAM, 512GB SSD - $1299
@@ -26,6 +31,11 @@
 - Return portal: https://returns.onestop.com
 - Refund processing: 5-7 business days
 
+### Payment & Refund
+- Supported payment methods: VISA, MasterCard, Afterpay, Apple Pay
+- Refunds are processed within 5–7 business days after return confirmation
+- You can view past payments in your account’s Order History section
+
 ## Order Status Examples
 - ORD-1001: Shipped (ETA: July 25)
 - ORD-1002: Processing
@@ -40,3 +50,16 @@
 - Live product demos: https://demos.onestop.com
 - AR try-on: https://ar.onestop.com
 - 24/7 support: support@onestop.com
+
+## Frequently Asked Questions (FAQ)
+Q: How do I track my order?
+A: You can track your order anytime using your order number at https://track.onestop.com
+
+Q: What is your return policy?
+A: We offer 30-day hassle free returns for eligible products. Visit https://return.onestop.com for full details.
+
+Q: Do you offer same-day delivery?
+A: Currently, same-day delivery ($15) is available in selected metro areas for orders placed before 1pm.
+
+Q: How do I apply a promo code?
+A: You can enter promo codes during checkout in the “Apply Discount” field.
