@@ -35,7 +35,7 @@ def main():
         ]
 
         if any(trigger in user_input.lower() for trigger in abandon_triggers):
-            print("\nAssistant: We noticed you might be leaving without checking out. Here's a 5% off code just for you: STAY5 💸")
+            print("\nAssistant: We noticed you might be leaving without checking out. Here's a 5% off code just for you: STAY5")
             print("Use it at checkout to complete your purchase today. Let me know if you need help!")
             continue 
 
