@@ -12,13 +12,10 @@ with open("onestop_knowledge.txt", "r", encoding="utf-8") as f:
     CUSTOM_KNOWLEDGE = f.read()
 
 # Function to ask the OneStop AI assistant
-def ask_onestop_assistant(question):
+def ask_onestop_assistant(chat-history):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": f"You are a customer support assistant for OneStop e-commerce. Use this knowledge base to answer questions:\n\n{CUSTOM_KNOWLEDGE}\n\nRules: Be concise. For order status, ask for order ID. For returns, provide the portal link."},
-            {"role": "user", "content": question}
-        ],
+        messages=chat_history,
         temperature=0.3
     )
     return response.choices[0].message.content
@@ -26,6 +23,9 @@ def ask_onestop_assistant(question):
 # Chat interface
 def main():
     print("\n🚀 OneStop AI Assistant: How can I help today? (Type 'exit' to quit)")
+    chat_history = [
+        {"role": "system", "content": f"You are a customer support assistant for OneStop e-commerce. Use this knowledge base to answer questions:\n\n{CUSTOM_KNOWLEDGE}\n\nRules: Be concise. For order status, ask for order ID. For returns, provide the portal link."}
+    ]
     while True:
         user_input = input("\nYou: ")
         abandon_triggers = [
@@ -42,8 +42,10 @@ def main():
         if user_input.lower() in ['exit', 'quit']:
             break
         
-        response = ask_onestop_assistant(user_input)
+        chat_history.append({"role": "user", "content": user_input})
+        response = ask_onestop_assistant(chat_history)
         print(f"\nAssistant: {response}")
+        chat_history.append({"role": "assistant", "content": response})
 
 if __name__ == "__main__":
     main()
