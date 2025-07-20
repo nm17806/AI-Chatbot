@@ -12,7 +12,7 @@ with open("onestop_knowledge.txt", "r", encoding="utf-8") as f:
     CUSTOM_KNOWLEDGE = f.read()
 
 # Function to ask the OneStop AI assistant
-def ask_onestop_assistant(chat-history):
+def ask_onestop_assistant(chat_history):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=chat_history,
